@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<title> gillyTech -Portfolio</title>
+    <meta name="description" content="Web developer from Mlolongo, Nairobi, currently at Kisumu. I know how to create your website to run across devices using the latest technologies available.">
+
+	<meta charset="UTF-8">
+	<meta name="description" content="Photo Gallery HTML Template">
+	<meta name="keywords" content="endGam,gGaming, magazine, html">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Favicon -->
+	<link href="img/favicon.ico" rel="shortcut icon"/>
+
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
+
+
+	<!-- Stylesheets -->
+    <link href="assets/all/all.css" rel="stylesheet">
+
+
+	<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
+
+	<!-- Top right elements -->
+	<div class="spacial-controls">
+		<a class="menu-btn">
+			<i class="ion ion-grid nav-switch-warp"></i>
+		</a>
+	</div>
+	<!-- Top right elements end -->
+
+	<div class="main-warp">
+		<!-- header section -->
+		<header class="header-section">
+
+			<div class="header-warp menu_block">
+            <!--logo -->
+            <div class="logo_box">
+                <a href="#">
+                    <img src="assets/img/logo.png" alt="cocoon">
+                </a>
+            </div>
+            <!--logo end-->
+
+            <!--main menu -->
+            <div class="side_menu_section">
+                <ul class="menu_nav">
+					<li class="active">
+						<a href="index.php">
+							Home
+						</a>
+					</li>
+					<li>
+						<a href="about.php">
+							About Us
+						</a>
+					</li>
+					<li>
+						<a href="services.php">
+							Services
+						</a>
+					</li>
+					<li>
+						<a href="portfolio.php">
+							portfolio
+						</a>
+					</li>
+					<li>
+						<a href="gallery.php">
+							Gallery
+						</a>
+					</li>
+					<li>
+						<a href="contact.php">
+							Contact
+						</a>
+					</li>
+				</ul>
+
+            </div>
+			<!--main menu end -->
+			
+				<div class="">
+					<ul class="social_menu">
+							<li>
+								<a href="https://www.instagram.com/muia_g/"> <i class="ion ion-social-instagram"></i> </a>
+							</li>
+							<li>
+								<a href="https://www.facebook.com/miua.mutinda"> <i class="ion ion-social-facebook"></i> </a>
+							</li>
+							<li>
+								<a href="https://twitter.com/muia_gilbert"> <i class="ion ion-social-twitter"></i> </a>
+							</li>
+							<li>
+								<a href="https://www.linkedin.com/in/gilbert-mutinda-0190b5191/"> <i class="ion ion-social-linkedin"></i> </a>
+							</li>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="copyright">Gillycode 2018  @ All rights reserved</div>
+			
+			</header>
+
+		<!-- header section end -->
+
+		<!-- Page section -->
+		<div class="page-section home-page">
+			<div class="hero-slider owl-carousel">
+				<div class="slider-item d-flex align-items-center set-bg" data-setbg="img/image1.jpg" data-hash="slide-1">
+					<div class="si-text-box">
+						<span>Website Design</span>
+						<h2>Website Design</h2>
+						<p>Let's be honest and cut through the marketing fluff. You need a website that looks amazing and actually works. Bottom line, that's what I do. And if you want to learn more about working with me, pick up the phone and give me a call (or email).</p>
+						<a href="mailto:gillycode@gmail.com" class="site-btn">Message me</a>
+					</div>
+					<div class="next-slide-show set-bg" data-setbg="img/image4.jpg">
+						<a href="#slide-2" class="ns-btn">Next</a>
+					</div>
+				</div>
+				<div class="slider-item d-flex align-items-center set-bg" data-setbg="img/image4.jpg"  data-hash="slide-2">
+					<div class="si-text-box">
+						<span>What I can do.</span>
+						<h2>Design what you want.</h2>
+						<p>I like to keep it simple. My goals are to focus on typography, content and conveying the message that you want to send. </p>
+						
+					</div>
+					<div class="next-slide-show set-bg" data-setbg="img/image3.jpg">
+						<a href="#slide-3" class="ns-btn">Next</a>
+					</div>
+				</div>
+				<div class="slider-item d-flex align-items-center set-bg" data-setbg="img/image3.jpg"  data-hash="slide-3">
+					<div class="si-text-box">
+						<span>What I can do.</span>
+						<h2>Develop what you need.</h2>
+						<p>I'm a developer, so I know how to create your website to run across devices using the latest technologies available.</p>
+						
+					</div>
+					<div class="next-slide-show set-bg" data-setbg="img/image5.jpg">
+						<a href="#slide-6" class="ns-btn">Next</a>
+					</div>
+				</div>
+				<div class="slider-item d-flex align-items-center set-bg" data-setbg="img/image5.jpg"  data-hash="slide-6">
+					<div class="si-text-box">
+						<span>I can help.</span>
+						<h2>I’m currently available for freelance work.</h2>
+						<p>If you have a project that you want to get started, think you need my help with something or just fancy saying hey, then get in touch.</p>
+						<a href="mailto:gillycode@gmail.com" class="site-btn">Message me</a>
+					</div>
+					<div class="next-slide-show set-bg" data-setbg="img/image1.jpg">
+						<a href="#slide-1" class="ns-btn">Next</a>
+					</div>
+				</div>
+			</div>
+			<div id="snh-1"></div>
+		</div>
+		<!-- Page section end-->
+	</div>
+
+	<!-- Search model -->
+	<!-- Search model end -->
+
+
+	<!--====== Javascripts & Jquery ======-->
+	<script src="assets/all/all.js"></script>
+
+	</body>
+</html>
